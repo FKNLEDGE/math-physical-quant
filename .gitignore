@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- 虚拟环境 ---
+.venv/
+venv/
+env/
+
+# --- 数据缓存（行情数据别提交进仓库，体积大且会变） ---
+data/
+*.csv
+*.parquet
+*.h5
+!**/示例数据/*.csv   # 但允许少量教学用示例数据
+
+# --- 编辑器 / 系统 ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- 画图临时输出 ---
+*.png
+*.jpg
+!docs/**/*.png        # 文档里的配图保留
+
+# --- C++ 编译产物（后期用） ---
+*.o
+*.out
+*.so
+build/

@@ -1,0 +1,25 @@
+# 数学物理与量化 · Python 依赖
+# 安装： pip install -r requirements.txt
+# 国内提速： 末尾加  -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# --- 科学计算核心三件套 ---
+numpy>=1.26          # 数值数组运算（计算引擎）
+pandas>=2.2          # 表格 / 时间序列处理
+matplotlib>=3.8      # 画图
+
+# --- 科学计算扩展 ---
+scipy>=1.12          # 统计分布、优化、积分等
+
+# --- 交互式学习环境 ---
+jupyterlab>=4.0      # 浏览器里边写边看的 notebook（小白首选）
+
+# --- 行情数据（练手用，免费） ---
+yfinance>=0.2        # 一行代码下载股票历史数据
+
+# --- 之后会用到（先注释，按路线图需要时再解开） ---
+# statsmodels>=0.14  # 统计建模、时间序列（ARIMA 等）
+# scikit-learn>=1.4  # 机器学习（路线 D）
+# vectorbt           # 向量化回测框架（路线 A 进阶，活跃维护）
+# zipline-reloaded   # 事件驱动回测（zipline 的活跃分叉，原版已废弃）
+# akshare            # 国内行情数据（A股/期货，新手友好，推荐）
+# QuantLib>=1.33     # 衍生品定价库（路线 B）
