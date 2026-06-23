@@ -17,7 +17,7 @@ jupyterlab>=4.0      # 浏览器里边写边看的 notebook（小白首选）
 yfinance>=0.2        # 一行代码下载股票历史数据
 
 # --- 之后会用到（先注释，按路线图需要时再解开） ---
-# statsmodels>=0.14  # 统计建模、时间序列（ARIMA 等）
+statsmodels>=0.14    # 统计/时间序列（协整、ADF、GARCH）
 scikit-learn>=1.4    # 机器学习（路线 D：树模型/随机森林/梯度提升）
 # vectorbt           # 向量化回测框架（路线 A 进阶，活跃维护）
 # zipline-reloaded   # 事件驱动回测（zipline 的活跃分叉，原版已废弃）
