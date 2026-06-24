@@ -19,6 +19,7 @@ yfinance>=0.2        # 一行代码下载股票历史数据
 # --- 之后会用到（先注释，按路线图需要时再解开） ---
 statsmodels>=0.14    # 统计/时间序列（协整、ADF、GARCH）
 scikit-learn>=1.4    # 机器学习（路线 D：树模型/随机森林/梯度提升）
+pybind11>=2.11       # Python 调 C++（进阶·编程深化；另需系统装 g++ C++17）
 # vectorbt           # 向量化回测框架（路线 A 进阶，活跃维护）
 # zipline-reloaded   # 事件驱动回测（zipline 的活跃分叉，原版已废弃）
 # akshare            # 国内行情数据（A股/期货，新手友好，推荐）
